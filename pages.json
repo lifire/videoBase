@@ -5,16 +5,19 @@
 			"style": {
 				"navigationBarTitleText": "首页"
 			}
-		}
-	    ,{
-            "path" : "pages/course1/course1",
-            "style" : {
-				"navigationBarTitleText":"课程一"
+		}, {
+			"path": "pages/course1/course1",
+			"style": {
+				"navigationBarTitleText": "课程一",
+				"h5": {
+					"titleNView": "false"
+				}
 			}
-        }
-    ],
-	"easycom":{
-		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		}
+	],
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"uni-(.*)": "@/components/uni-$1.vue" // 匹配components目录内的vue文件
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
