@@ -72,7 +72,17 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
-        "enable": false
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "h5" : {
+        "router" : {
+            "base" : "/h5/",
+            "mode" : "hash"
+        },
+        "devServer" : {
+            "https" : true
+        },
+        "domain" : "https://da.hq88.com/h5"
     }
 }

@@ -1,10 +1,14 @@
 import Vue from 'vue'
 import App from './App'
+
 import uView from 'uview-ui'
+Vue.use(uView)
+
+//模拟数据
+import Mock from 'mockjs'
+Vue.prototype.$mock = Mock
 
 Vue.config.productionTip = false
-
-Vue.use(uView)
 
 App.mpType = 'app'
 

@@ -6,9 +6,9 @@
 				"navigationBarTitleText": "首页"
 			}
 		}, {
-			"path": "pages/course1/course1",
+			"path": "pages/course/course",
 			"style": {
-				"navigationBarTitleText": "课程一",
+				"navigationBarTitleText": "课程详情",
 				"h5": {
 					"titleNView": "false"
 				}
