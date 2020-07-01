@@ -47,7 +47,7 @@
 		data() {
 			return {
 				videoPath: '',
-				videoPoster: '../../static/course1/pexels-photo-4666665.jpeg',
+				videoPoster: '',
 				videoLoading: false,
 				videoData: '',
 				current:0
@@ -57,6 +57,7 @@
 			let thisCourse = courseData.courseData[option.courseId]
 			if(thisCourse){				
 				this.videoData = thisCourse
+				this.videoPoster = thisCourse.list[0].poster //视频默认图片为第一节图片
 				uni.setNavigationBarTitle({
 					title:thisCourse.title
 				})

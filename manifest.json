@@ -83,6 +83,7 @@
         "devServer" : {
             "https" : false
         },
-        "domain" : "https://da.hq88.com/h5"
+        "domain" : "https://da.hq88.com/h5",
+        "template" : "template.h5.html"
     }
 }
