@@ -81,7 +81,7 @@
             "mode" : "hash"
         },
         "devServer" : {
-            "https" : true
+            "https" : false
         },
         "domain" : "https://da.hq88.com/h5"
     }

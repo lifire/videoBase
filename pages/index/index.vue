@@ -21,7 +21,6 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello',
 				list: listData.listData
 			}
 		},
